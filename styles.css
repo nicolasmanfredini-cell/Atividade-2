@@ -1,23 +1,35 @@
-<!DOCTPYE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AluraFlix Catálogo</title>
-<link rel-"stylesheet"href="style.css"/>
-</head>
-<body>
-  <section>
-  <div>
-    <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME</h1>
-    <p>#homen-aranha</p>
-    </div>
-    
-    <div> 
-        <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/gt_fAE1Eg2Q"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
+body {  
+   background:black;
+   color:white;
+   front-family: Arial, sans-serif;
+   margin:0;
+}
+
+/* Cabeçalho estilizado */ 
+  header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px; 
+    font-size: 32px;
+    color:rgb(42, 122, 228);
+  }
+
+  section {
+    border:solid gray;
+    margin:20px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0  0  8px 0;
+  }
+
+  p{
+    color:#ccc; 
+    margin: 0  0  12px 0;
+  }
+
+  iframe {
+    max-width: 100%;
+    display: block;  
+  }
